@@ -1,3 +1,5 @@
-Basic word counter in javascript, enter number of words/essay and the program will count the words for you
 
-![image](https://github.com/TechSon1c/Words-counter/assets/109432830/e52be501-c9b3-4494-87d5-7be03aaf2043)
+from words counter to Auto words counter, type words and the number of it will show up automaticly, updated so when you tap DEL on keyboard it s resets itself, so u dont have to take a hands from keyboard. can be developed further.
+
+![image](https://github.com/TechSon1c/Words-counter/assets/109432830/f3fe5ea1-b48b-4ade-9ebc-843c68ce6038)
+

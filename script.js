@@ -9,18 +9,31 @@ let displayText = document.getElementById("displaytext")
 // trim to remove whitespace, split to divide words in array [word] [word] [word], 
 // .filter(word => word) filter the whitespaces
 
-function inputText () {
+
+
+function inputText() {
   const typeText = document.getElementById("typeText");
-  const typetextvalue = typeText.value;
-  const wordCount = typetextvalue.trim().split(/\s+/).filter(word => word).length; 
-  displayText.textContent = `Words counted: ${wordCount}`; 
+  const typetextValue = typeText.value;
+  const trimValue = typetextValue.trim();
+  const words = trimValue.split(/\s+/).filter(word => word);
+  displayText.textContent = "Word count: " + words.length;
+
 }
 
-function submit() {
-  inputText();
-}
+
+// press delete on keyboard to delete whole text
+document.getElementById('typeText').addEventListener("keydown", function(event) {
+  if (event.keyCode === 46) {
+    deleteText();
+  }
+});
+
+
+
+document.getElementById('typeText').addEventListener("input", inputText);
 
 function deleteText() {
-  displayText.textContent = ""; 
+  displayText.textContent = "";
   document.getElementById("typeText").value = "";
 }
+
