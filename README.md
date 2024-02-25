@@ -11,5 +11,9 @@ keeping track of words while typing
 delete all 4 graphs by one click (system doublechecks if you really wish to delete all the recourses)
 
 
-![image](https://github.com/TechSon1c/Words-counter/assets/109432830/f3fe5ea1-b48b-4ade-9ebc-843c68ce6038)
+![image](https://github.com/TechSon1c/Words-counter/assets/109432830/b665a190-2973-419b-9370-c213a2cd8966)
+
+![image](https://github.com/TechSon1c/Words-counter/assets/109432830/d7ddb53a-d99d-41ab-9d8e-ee26664c1793)
+
+
 
