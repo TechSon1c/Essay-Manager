@@ -1,0 +1,63 @@
+body {
+    background: url(New\ Project\ \(4\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Hide overflowing animations */
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+.heading {
+    color: #fff;
+    font-size: 42px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards 0.8s;
+}
+
+.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards 1s;
+    animation-delay: 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
